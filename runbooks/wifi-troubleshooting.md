@@ -39,7 +39,7 @@
 ### 檢查A2: 重新啟動 Windows 檔案總管
 
 1. 按`Ctrl + Shift + Esc` 開啟工作管理員  
-2. 找到 **Windows 檔案總管(explorer.exe) **  
+2. 找到 **Windows 檔案總管(explorer.exe)**  
 3. 右鍵**重新啟動**  
 4. 等待幾秒，圖示應該會出現
 
