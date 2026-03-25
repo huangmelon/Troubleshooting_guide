@@ -187,4 +187,4 @@ ping x.x.x.x
 ---  
 
 
- *文件作者: Yi-Wen huang / 參考來源: Google IT Support Certificate, Microsoft Docs* 
+ *文件作者: Gua, Huang / 參考來源: Google IT Support Certificate, Microsoft Docs* 
