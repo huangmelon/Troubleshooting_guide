@@ -18,9 +18,9 @@
 ## 排障手冊 (Runbooks)  
 | 文件 | 說明 | 難度 |  
 |---|---|---|  
-| [Wi-Fi 無法連線](runbooks/wifi-troubleshooting.md) | 涵蓋無法連線、圖示消失、間歇性斷線等情境 | 入門 | 
-| [印表機無法連線](runbooks/printer-troubleshooting.md) | 涵蓋USB、無線、共用印表機三種連線方式 | 入門 |
-| [電腦執行速度緩慢](runbooks/slow-computer-troubleshooting.md)|涵蓋軟體、硬體、散熱、升級建議等情境 | 入門-中階|  
+| [Wi-Fi 無法連線](runbooks/zh/wifi-troubleshooting.md) | 涵蓋無法連線、圖示消失、間歇性斷線等情境 | 入門 | 
+| [印表機無法連線](runbooks/zh/printer-troubleshooting.md) | 涵蓋USB、無線、共用印表機三種連線方式 | 入門 |
+| [電腦執行速度緩慢](runbooks/zh/slow-computer-troubleshooting.md)|涵蓋軟體、硬體、散熱、升級建議等情境 | 入門-中階|  
 
 ---  
 
