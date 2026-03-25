@@ -26,26 +26,26 @@
 
 ## 技術技能  
 
-**作業系統**
--Windows 10/11 安裝、設定、排障  
--基本 macOS 操作  
+**作業系統**  
+- Windows 10/11 安裝、設定、排障  
+- 基本 macOS 操作  
 
 
-**網路**
--TCP/IP,DNS,DHCP 基礎概念  
--家用與辦公室網路排障  
--基本路由器設定 
+**網路**  
+- TCP/IP,DNS,DHCP 基礎概念  
+- 家用與辦公室網路排障  
+- 基本路由器設定 
 
-**硬體**
--電腦組裝與零件更換
--基本硬體診斷  
--散熱與效能評估  
+**硬體**  
+- 電腦組裝與零件更換
+- 基本硬體診斷  
+- 散熱與效能評估  
 
-**工具與指令**
--Windows 命令提示字元 (CMD)  
--PowerShell 基礎  
--裝置管理員、事件檢視器、工作管理員  
--Remote Desktop  
+**工具與指令**  
+- Windows 命令提示字元 (CMD)  
+- PowerShell 基礎  
+- 裝置管理員、事件檢視器、工作管理員  
+- Remote Desktop  
 
 **證照**
 - Google IT Support Certification (Coursera)
