@@ -1,7 +1,7 @@
 # IT Support 技術文件作品集  
 
 **作者:** Gua, Huang  
-**證照:** Google IT Support Certificate, CompTIA A+
+**證照:** Google IT Support Certificate, CompTIA A+  
 **LinkedIn:** www.linkedin.com/in/yiwen-huang-387708256 
 
 ---  
@@ -20,7 +20,7 @@
 |---|---|---|  
 | [Wi-Fi 無法連線](runbooks/wifi-troubleshooting.md) | 涵蓋無法連線、圖示消失、間歇性斷線等情境 | 入門 | 
 | [印表機無法連線](runbooks/printer-troubleshooting.md) | 涵蓋USB、無線、共用印表機三種連線方式 | 入門 |
-| [電腦執行速度緩慢](runbooks/slow-computer-troubleshooting)|涵蓋軟體、硬體、散熱、升級建議等情境 | 入門-中階|  
+| [電腦執行速度緩慢](runbooks/slow-computer-troubleshooting.md)|涵蓋軟體、硬體、散熱、升級建議等情境 | 入門-中階|  
 
 ---  
 
