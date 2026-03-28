@@ -36,7 +36,7 @@ All runbooks are written to be followed by users of any technical level.
 | [Wi-Fi Connection Issues](runbooks/en/wifi-troubleshooting.md) | Covers unable to connect, missing icon, and intermittent disconnection | Beginner |
 | [Printer Connection Issues](runbooks/en/printer-troubleshooting.md) | Covers USB, wireless, and shared printer connections | Beginner |
 | [Slow Computer Performance](runbooks/en/slow-computer-troubleshooting.md) | Covers software, hardware, thermal, and upgrade scenarios | Beginner–Intermediate |  
-| [Website Connection Issues](runbooks/en/website-cannot-connect-troubleshootng.md)| Covers specific websites, all websites, DNS,and cache| Beginner-Intermediate | 
+| [Website Connection Issues](runbooks/en/website-cannot-connect-troubleshootng.md)| Covers a specific website, all websites, DNS,and browser cache and cookies| Beginner-Intermediate | 
 
 
 ---  
