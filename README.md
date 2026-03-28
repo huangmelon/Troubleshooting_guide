@@ -26,6 +26,8 @@ All runbooks are written to be followed by users of any technical level.
 | [印表機無法連線](runbooks/zh/printer-troubleshooting.md) | 涵蓋USB、無線、共用印表機三種連線方式 | 入門 |
 | [電腦執行速度緩慢](runbooks/zh/slow-computer-troubleshooting.md)|涵蓋軟體、硬體、散熱、升級建議等情境 | 入門-中階|   
 | [無法連上網站](runbooks/zh/website-cannot-connect-troubleshooting.md)|涵蓋特定網站、所有網站、DNS、瀏覽器快取等情境| 入門 |
+| [螢幕沒有畫面/黑屏](runbooks/zh/no-display-troubleshooting.md)|涵蓋無訊號、黑屏、驅動問題、睡眠無法喚醒等情境|入門－中階|  
+
 
 ### English Version
 
