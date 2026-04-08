@@ -38,33 +38,33 @@
 
 # Event ID List 
 
-|Event ID | Log Type | Source | Description | Common Use Case |
+|Event ID | Log Type | Source | Description | troubleshooting   |
 |------|------|------|------|------|
-| 1 | System | BugCheck | System crashed (BSOD) | Analyze stop code |
-| 7 | System | Disk | Bad block detected | Disk failure warning |
-| 9 | System | Disk | I/O error | Disk or controller issue |
-| 11 | System | Disk | Controller error | Storage hardware problem |
-| 41 | System | Kernel-Power | Unexpected shutdown or reboot | Power failure, system crash (BSOD) |
-| 51 | System | Disk | Disk error during paging | Storage issues |
-| 55 | System | NTFS | File system corruption | Run chkdsk |
-| 157 | System | Disk | Disk has been removed unexpectedly | Hardware / cable issue |
-| 1000 | Application | Application Error | Application crash | Debug app crash |
-| 1001 | System | BugCheck | Dump file created after crash | Debug BSOD |
-| 1002 | Application | Application Hang | Application not responding | Performance issue |
-| 1014 | System | DNS Client | DNS resolution failure | Network / DNS issue |
-| 1026 | Application | .NET Runtime | .NET application error | App debugging |
-| 1102 | Security | EventLog | Audit log cleared | Possible suspicious activity |
-| 4201 | System | Tcpip | Network interface connected | Network changes |
-| 4227 | System | Tcpip | TCP/IP port exhaustion | Too many connections |
-| 4624 | Security | Microsoft Windows Security Auditing | Successful logon | User login tracking |
-| 4625 | Security | Microsoft Windows Security Auditing | Failed logon | Brute force / login issue |
-| 4634 | Security | Microsoft Windows Security Auditing | Logoff | User logout |
-| 4672 | Security | Microsoft Windows Security Auditing | Admin privileges assigned | Privileged login |
-| 4720 | Security | Microsoft Windows Security Auditing | User account created | Account management |
-| 4726 | Security | Microsoft Windows Security Auditing | User account deleted | Account removal |
-| 4732 | Security | Microsoft Windows Security Auditing | User added to group | Permission change |
-| 6005 | System | EventLog | Event Log service started | System boot |
-| 6006 | System | EventLog | Event Log service stopped | System shutdown |
-| 6008 | System | EventLog | Unexpected shutdown detected | Crash or power loss |
-| 7045 | System | Service Control Manager | New service installed | Malware / software install |
-| 7036 | System | Service Control Manager | Service started/stopped | Service monitoring |
+| 1 | System | WHEA-Logger | System crash (BSOD) with stop code recorded | Check dump file, analyze stop code, update drivers |
+| 7 | System | Disk | Bad block detected on disk | Run chkdsk, check disk health (SMART), replace disk if needed |
+| 9 | System | Disk | I/O error on disk device | Check cables, controller, disk hardware |
+| 11 | System | Disk | Controller error on disk | Verify storage controller, update drivers/firmware |
+| 41 | System | Kernel-Power | Unexpected shutdown without clean shutdown | Check power supply, overheating, BSOD logs |
+| 51 | System | Disk | Paging I/O error | Check disk performance, run diagnostics |
+| 55 | System | NTFS | File system corruption detected | Run chkdsk /f /r, repair file system |
+| 157 | System | Disk | Disk removed unexpectedly | Check cable, power, disk connection |
+| 1000 | Application | Application Error | Application crashed | Check app logs, reinstall/update application |
+| 1001 | System | BugCheck | Dump file generated after crash | Analyze dump file (WinDbg), correlate with BSOD |
+| 1002 | Application | Application Hang | Application not responding | Check CPU/memory usage, restart or debug app |
+| 1014 | System | DNS Client | DNS resolution failure | Check DNS server settings, network connectivity |
+| 1026 | Application | .NET Runtime | .NET application exception | Check stack trace, update .NET/runtime |
+| 1102 | Security | EventLog | Security log was cleared | Investigate potential malicious activity |
+| 4201 | System | Tcpip | Network interface connected/disconnected | Check network stability, drivers |
+| 4227 | System | Tcpip | TCP/IP port exhaustion | Check for too many connections, tune system limits |
+| 4624 | Security | Microsoft Windows Security Auditing | Successful logon | Audit user access if needed |
+| 4625 | Security | Microsoft Windows Security Auditing | Failed logon attempt | Check credentials, investigate brute force |
+| 4634 | Security | Microsoft Windows Security Auditing | User logoff | Track session activity |
+| 4672 | Security | Microsoft Windows Security Auditing | Admin privileges assigned | Monitor privileged access |
+| 4720 | Security | Microsoft Windows Security Auditing | New user account created | Verify account creation legitimacy |
+| 4726 | Security | Microsoft Windows Security Auditing | User account deleted | Audit account removal |
+| 4732 | Security | Microsoft Windows Security Auditing | User added to security group | Verify permission changes |
+| 6005 | System | EventLog | Event Log service started | Indicates system startup |
+| 6006 | System | EventLog | Event Log service stopped | Indicates clean shutdown |
+| 6008 | System | EventLog | Unexpected shutdown detected | Investigate crash or power issue |
+| 7045 | System | Service Control Manager | New service installed | Check for unauthorized software/malware |
+| 7036 | System | Service Control Manager | Service started or stopped | Monitor service status changes |
