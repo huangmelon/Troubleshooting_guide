@@ -66,5 +66,5 @@
 | 6005 | System | EventLog | Event Log service started | Indicates system startup |
 | 6006 | System | EventLog | Event Log service stopped | Indicates clean shutdown |
 | 6008 | System | EventLog | Unexpected shutdown detected | Investigate crash or power issue |
-| 7045 | System | Service Control Manager | New service installed | Check for unauthorized software/malware |
 | 7036 | System | Service Control Manager | Service started or stopped | Monitor service status changes |
+| 7045 | System | Service Control Manager | New service installed | Check for unauthorized software/malware |
